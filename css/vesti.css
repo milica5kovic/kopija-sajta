@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@100&display=swap');
+
+.vesti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10%;
+    width: 100%;
+    padding: 0.9375rem;
+}
+
+.vesti-wrapper {
+    width: 65%;
+}
+
+.vesti-wrapper-left {
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.vesti-wrapper-left h1 {
+    color: #3e87d0;
+    font-family: 'Roboto-Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.text-icons {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 100;
+    font-size: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid grey;
+    padding-top:0.5em;
+
+}
+
+.icons-padding {
+    padding-right: 1.2rem;
+    width: 100%;
+
+}
+
+.icons-padding-bottom {
+    padding-left: 0.2rem;
+}
+
+.slika-vesti {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.slika-vesti img {
+    width: 100%;
+}
+
+.div-bottom-left-vest {
+    margin-right: 2%;
+    width: 30%;
+    margin-top:1em;
+}
+.div-bottom-right-vest{
+    margin-right: 2%;
+    width: 68%;
+    display: flex;
+    justify-content: flex-start;
+}
+.div-bottom-right-vest p{
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+.article-header {
+    align-items: center;
+    background-color: #29487a;
+    color: #f3f1f1;
+    display: flex;
+    font-family: 'Roboto-Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    height: 40px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.linked-news-wrapper {
+    background-color: #f9f9f9;
+}
+
+.linked-news-text {
+    border-bottom: 1px solid #eaeaea;
+    color: #333;
+    display: block;
+    font-size: .8125rem;
+    line-height: 1.2rem;
+    padding: .9375rem;
+}

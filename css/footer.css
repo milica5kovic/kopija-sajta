@@ -1,0 +1,139 @@
+.footer {
+    position: relative;
+}
+
+
+.footer-navigation{
+    background-color: #29487a;
+    border-top: 5px solid #3e87d0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.footer-navigation li{
+    list-style: none;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.footer-navigation ul {
+    margin: 0;
+}
+
+.footer-naslov{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid gray;
+    justify-content: space-between;
+}
+
+.footer-sub-naslov {
+    margin-bottom: 15px;
+    width: 18%;
+}
+
+.footer-sub-naslov h4{
+    font-family: 'Roboto-Condensed', sans-serif;
+    color: white;
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-sub-naslov ul{
+    padding: 0;
+}
+
+.footer-lower{
+    background-color: #1e2d48;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1.5rem;
+    width: 100%;
+    align-items: center;
+}
+.footer-link a{
+    color: #f3f1f1;
+    font-size: .75rem;
+    line-height: 1.2rem;
+    opacity: .6;
+    text-decoration: none;
+    
+}
+.wrapper-footer .footer-low-upper{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    
+}
+.footer-low-upper{    
+    width: 100%;
+    display: flex;
+
+}
+.footer-low-upper ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    padding-left:1em;
+    text-decoration: none;
+}
+.footer-nav li{
+    list-style: none;
+    padding: none; 
+    padding-left: 0.4em;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Condensed', sans-serif;
+    font-weight: 700;
+    
+}
+.footer-nav li a{
+    background-color: transparent;
+    font-size: .75rem;
+    opacity: .8;
+    text-decoration: none;
+    color: #f3f1f1;
+}
+
+#slike.footer-sub-naslov .footer-naslov {
+    width: 100%;
+}
+
+#slike.footer-sub-naslov {
+    width: 36%;
+}
+
+#slike.footer-sub-naslov ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+}
+
+
+#slike.footer-sub-naslov ul li a img {
+    height: 40px;
+    width: auto;
+    padding-top:0.4em;
+    
+}
+.foot-low-lower p{
+    font-size: .6875rem;
+    padding: 10px;
+    color: #f3f1f1;
+    opacity: .4;
+    padding-left: 2em;
+    font-family: Open-Sans,sans-serif;
+}

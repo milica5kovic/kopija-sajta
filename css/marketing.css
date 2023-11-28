@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-direction: column !important;
+    height: fit-content;
+    margin: 0 1rem;
+    width: 45% !important;
+}
+
+.wrapper.last {
+    flex-direction: row !important;
+}
+
+.wrapper img {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.wrapper .header {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.wrapper .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+}
+
+.wrapper .gallery img {
+    width: 20%;
+    border: 1px solid #000;
+}
+
+
+

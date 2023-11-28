@@ -1,0 +1,217 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+.main .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 2%;
+    margin-top: 1.2rem;
+    align-items: flex-start;
+}
+
+.main .wrapper-left{
+    /* background-color: greenyellow; */
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding: 0.3em;
+}
+
+.main .wrapper-left .image-container {
+    position: relative;
+}
+
+.main .wrapper-left img {
+    width: 100%; 
+    display: block;
+}
+
+.main .wrapper-left .image-wrapper {
+    background-color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #060709; 
+    text-transform: uppercase;
+}
+
+.main .wrapper-left .small-news{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.main .wrapper-left .small-news .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0.5rem;
+    text-decoration: none;
+    gap: 5%;
+    color: #000;
+    transition: 0.2s ease-in;
+}
+.main .wrapper-left .small-news .news-container:nth-child(odd) {
+    background: #f2f2f2;
+}
+.main .wrapper-left .small-news .news-container:nth-child(even) {
+    background: #eaeaea;
+}
+
+.main .wrapper-left .small-news .news-container:hover {
+    filter: brightness(0.9);
+}
+
+.main .wrapper-left .small-news .news-container img {
+    width: 45%;
+}
+
+.main .wrapper-left .small-news .news-container .news-text-wrapper {
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 0.93rem;
+    line-height: 1rem;
+}
+
+
+.main .wrapper-right {
+    width: 45%;
+    position: relative;
+    top: 0.8rem;
+}
+
+.main .wrapper-right .header {
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+    background: #3E87D0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main .wrapper-right .header .header-right,
+.main .wrapper-right .header .header-left
+{   
+    width: 50%;
+    padding: 0.4rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.main .wrapper-right .header .header-left {
+    position: relative;
+    bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #3E87D0;
+}
+
+.main .wrapper-right .header .header-right {
+    background: #29487A;
+    position: relative;
+    font-size: 0.9rem;
+    bottom: 0.2rem;
+}
+.main .wrapper-right .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    gap: 1%;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    height: fit-content;
+    background: #f2f2f2;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main .wrapper-right .content:nth-child(even) {
+    background: #eaeaea;
+}
+
+
+.main .wrapper-right .content:hover {
+    filter: brightness(0.9);
+}
+
+.main .wrapper-right .content .content-wrapper {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+    width: 90%;
+}
+
+.main .wrapper-right .content .content-wrapper.timestamp {
+    width: 9%;
+}
+
+.main .wrapper-right .content .content-wrapper h3 {
+    width: 100%;
+}
+
+.main .wrapper-right .content .content-wrapper .short-text {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 100%;
+    color: rgba(0, 0 , 0, 0.5);
+}
+
+.main .wrapper.last {
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.main .wrapper.last .view-more {
+    background: #29487A;
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0 0 1rem 0;
+}
+
+
+.main .wrapper.last .container-small {
+    width: 40%;
+    margin: 0 0 1rem 0;
+    text-decoration: none;
+    color: rgba(0, 0 , 0, 0.5);
+}
+
+.main .wrapper.last .container-small:hover {
+    color: #3E87D0;
+}
+
+.main .wrapper.last .container-small img {
+    width: 100%;
+}
+
+
+
